@@ -1,0 +1,5 @@
+# 单独的本地检索环境；不改变现有 PDF 抽取依赖。
+numpy>=1.26,<3
+torch>=2.2,<3
+transformers==4.57.6
+sentencepiece>=0.2,<1

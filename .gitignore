@@ -1,0 +1,50 @@
+# Credentials and local configuration
+.env
+.env.*
+*.env
+*.pem
+*.key
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv*/
+venv/
+env/
+.python-packages/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Manuals, their extracted content, generated indexes/reports, model weights
+*.pdf
+output/
+models/
+.hf-cache/
+.cache/
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.jsonl
+
+# Runtime and screenshot browser profile
+*.log
+*.tmp
+.demo-browser/
+.tmp*/
+Thumbs.db
+.DS_Store

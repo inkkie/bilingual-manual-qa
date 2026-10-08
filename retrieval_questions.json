@@ -1,0 +1,22 @@
+[
+  {"id":"Q01","category":"参数设置","language":"zh","question":"如何把控制器的热电偶输入类型设为 K 型？应在哪个菜单设置？","evidence_requirement":"明确输入类型所在菜单及K型对应的设定值或可选范围；仅目录不算。"},
+  {"id":"Q02","category":"参数设置","language":"en","question":"How do I start 100% auto-tuning (AT), and what happens to the AT parameter when tuning finishes?","evidence_requirement":"给出AT执行设置及完成后返回off；只描述AT原理算部分依据。"},
+  {"id":"Q03","category":"参数设置","language":"zh","question":"如何限制用户能设置的温度设定点范围？SP 上限和 SP 下限有什么作用？","evidence_requirement":"解释SP上下限如何限制设定点，且有设置参数信息。"},
+  {"id":"Q04","category":"参数设置","language":"en","question":"Which parameter changes the temperature display between Celsius and Fahrenheit, and in which level is it set?","evidence_requirement":"给出温度单位参数及所属设置菜单/level。"},
+  {"id":"Q05","category":"参数设置","language":"zh","question":"如何启用 SP 斜坡，让设定点按每分钟的变化率逐步变化？","evidence_requirement":"包含斜坡设定值及时间单位；只有功能描述算部分依据。"},
+  {"id":"Q06","category":"报警","language":"zh","question":"报警1采用偏差上限报警时，报警值与温度设定点是什么关系，何时输出报警？","evidence_requirement":"明确偏差报警基于设定点加偏差，及上限动作条件。"},
+  {"id":"Q07","category":"报警","language":"en","question":"What is the difference between an absolute-value upper-limit alarm and a deviation upper-limit alarm?","evidence_requirement":"分别说明绝对阈值及相对于SP的偏差阈值。"},
+  {"id":"Q08","category":"报警","language":"zh","question":"报警的待机序列有什么作用？上电时已经处于报警范围会立即报警吗？","evidence_requirement":"说明待机序列抑制启动报警并在离开报警范围后解除等待。"},
+  {"id":"Q09","category":"报警","language":"en","question":"How does the heater burnout alarm detect a failed heater, and when is heater current measured?","evidence_requirement":"给出CT/电流检测机制与控制输出ON时测量的条件。"},
+  {"id":"Q10","category":"报警","language":"en","question":"How can a latched alarm be cleared after the alarm condition has gone away?","evidence_requirement":"列出报警闩锁的有效复位方法，不将待机序列复位等同于闩锁复位。"},
+  {"id":"Q11","category":"接线","language":"zh","question":"E5CC 螺丝端子台机型的输入电源应接到哪两个端子？","evidence_requirement":"必须明确E5CC螺丝端子机型及两个电源端子编号，其他机型编号不能代替。"},
+  {"id":"Q12","category":"接线","language":"en","question":"How should a three-wire platinum resistance thermometer be connected to the A and B sensor inputs?","evidence_requirement":"给出三线铂电阻A/B/B接法及引线要求；仅支持该传感器类型不够。"},
+  {"id":"Q13","category":"接线","language":"zh","question":"连接热电偶时应使用什么补偿导线，为什么要与热电偶类型匹配？","evidence_requirement":"明确使用对应类型的补偿导线；没有匹配原因算部分依据。"},
+  {"id":"Q14","category":"接线","language":"en","question":"What tightening torque is specified for the screw terminals on the E5CC?","evidence_requirement":"给出适用E5CC的数值、单位及螺丝端子范围；不能引用端子螺钉以外的安装力矩。"},
+  {"id":"Q15","category":"接线","language":"zh","question":"E5CC 的 RS-485 通信端子 A（－）和 B（＋）分别对应哪个端子编号？","evidence_requirement":"需E5CC机型、A/B极性、具体端子号对应关系，不能凭零散数字推断。"},
+  {"id":"Q16","category":"故障排查","language":"zh","question":"显示 s.err 输入错误时，应检查哪些传感器、接线或输入类型设置？","evidence_requirement":"明确s.err输入错误及传感器断线/短路/接线、输入类型等检查项。"},
+  {"id":"Q17","category":"故障排查","language":"en","question":"What does the e111 memory error mean, and what should I do if it remains after cycling the power?","evidence_requirement":"明确内存错误、断电重启以及持续故障后的处置。"},
+  {"id":"Q18","category":"故障排查","language":"zh","question":"出现 e333 A/D 转换器错误时应怎样处理？重新上电后仍出现怎么办？","evidence_requirement":"对应e333而非其他错误，给出重新上电及持续故障处理。"},
+  {"id":"Q19","category":"故障排查","language":"en","question":"I cannot change the set point or parameter settings from the front keys. Which protection settings should I check?","evidence_requirement":"明确设置变更保护/操作调整保护对按键修改参数的限制及检查方向。"},
+  {"id":"Q20","category":"故障排查","language":"en","question":"The measured temperature is below the set point but the heating output stays OFF. Which operating or output settings should I check?","evidence_requirement":"给出与停止、手动、正反动作或输出分配相关的排查依据；不能凭相似度认定单一原因。"}
+]

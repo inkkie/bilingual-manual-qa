@@ -1,0 +1,26 @@
+{
+  "results_sha256": "5a50dc72161bd42996a6d51634f23858249edabbfc443078a8988080b00933fc",
+  "review_method": "本次会话逐题阅读混合检索实际Top-5原文，沿用retrieval_questions.json的全部问题和判定要求；不调用裁判API，不以分数代替证据，不补入Top-5之外的内容。",
+  "assessments": [
+    {"id":"Q01","status":"充分","evidence_chunk_ids":["en_p0155_c001","en_p0137_c002"],"reason":"英文155页明确在Initial Setting Level设置in-t，举例6为K型−20到500°C，默认5为K型−200到1300°C；137页也列出K型5及菜单。原目标zh_p0398_c001进入候选但仍未进Top-5，本次由另一条英文直接依据补足，不能声称原目标已升入Top-5。"},
+    {"id":"Q02","status":"充分","evidence_chunk_ids":["en_p0168_c001","en_p0169_c003","en_p0292_c004"],"reason":"168页明确at-2执行100% AT，169/292页说明完成后自动返回off。Top-5覆盖执行设置及完成行为。"},
+    {"id":"Q03","status":"充分","evidence_chunk_ids":["en_p0317_c001","en_p0211_c003","zh_p0398_c001"],"reason":"317页明确SP限制器以sl-h/sl-l限制设定点，超出新范围时移至上限或下限；211页与398页给出初始设定菜单和参数信息。"},
+    {"id":"Q04","status":"充分","evidence_chunk_ids":["en_p0157_c001"],"reason":"157页给出Initial Setting Level中的Temperature Unit参数d-u及c/f选择，覆盖参数与菜单。"},
+    {"id":"Q05","status":"充分","evidence_chunk_ids":["en_p0305_c002","en_p0335_c002","zh_p0402_c001","zh_p0397_c001"],"reason":"305页说明SP Ramp Set Value设置最大变化速率、OFF禁用且需ST为OFF；397页给出sprt设定范围。335页和402页给出spru的m/M为EU/分钟，覆盖启用值与分钟时间单位。"},
+    {"id":"Q06","status":"充分","evidence_chunk_ids":["zh_p0175_c002","zh_p0399_c001"],"reason":"175页明确偏差上限用报警值X设置相对于SP的上方偏差，偏差以上时ON；399页列出报警1类型alt1及偏差上限选项。175页依据升至第1名。"},
+    {"id":"Q07","status":"部分","evidence_chunk_ids":["en_p0321_c002"],"reason":"321页明确绝对值上限为PV超过X且与SP无关，但本次Top-5缺少偏差上限相对于SP的直接说明。原基线的en_p0179_c002退出Top-5，不能挪用旧命中补足；该题从充分退步为部分。"},
+    {"id":"Q08","status":"未找到","evidence_chunk_ids":[],"reason":"175/176页仅标注带待机序列的报警类型；183页含混排图示，336页主要说明序列重启条件。Top-5不能清楚支持上电抑制报警且离开报警范围后解除等待的完整机制。"},
+    {"id":"Q09","status":"充分","evidence_chunk_ids":["en_p0294_c001","en_p0294_c002"],"reason":"294页明确通过CT测量加热器ON时电流，电流低于阈值则输出断线报警，且列出最短ON时间条件。"},
+    {"id":"Q10","status":"充分","evidence_chunk_ids":["en_p0343_c002","en_p0210_c002"],"reason":"343页明确断电、PF键或事件输入解除报警闩锁及相关限制；210页说明LAT事件输入ON清除闩锁。没有把待机序列复位当成闩锁解除。"},
+    {"id":"Q11","status":"充分","evidence_chunk_ids":["zh_p0371_c001","zh_p0362_c001","zh_p0008_c002","en_p0032_c001"],"requires_pdf_image":false,"reason":"本次Top-5已有明确文字：371/362页在“输入电源(C/D)”下逐型号列出“E5CC：11/12”，8页及英文32页明确E5CC螺丝端子机型。只按文字给出的这一对编号计为充分，不从图中零散数字推断，也不把E5CC-U或E5CC-B编号替代。校正章节的文字不能扩展为额外接线极性或电压结论。"},
+    {"id":"Q12","status":"部分","evidence_chunk_ids":["en_p0013_c003"],"requires_pdf_image":true,"reason":"13页支持三条铂电阻引线低电阻且等电阻；其余Top-5的A/B/B和编号来自混排接线图，不能可靠确认导线对应关系。需查看PDF原图，不推断A/B/B接法或端子号。"},
+    {"id":"Q13","status":"充分","evidence_chunk_ids":["zh_p0010_c001","zh_p0102_c002"],"reason":"10页“确保测量精度”要求与热电偶类型相符的补偿导线，102页重复匹配要求。沿用原判定口径，只据此说明匹配以确保精度，不补充原文未写出的电动势机理。"},
+    {"id":"Q14","status":"充分","evidence_chunk_ids":["en_p0095_c001"],"reason":"95页接线注意事项明确E5CC螺丝端子适用0.43–0.58 N·m，E5CC-U为0.5 N·m例外；49页0.29–0.39 N·m是安装适配器扭矩，不算本题依据。"},
+    {"id":"Q15","status":"部分","evidence_chunk_ids":["en_p0111_c001"],"requires_pdf_image":true,"reason":"111页连续正文明确E5CC通信使用13和14这一对端子，但没有可靠的A(−)/B(+)逐一对应文字；75页属于E5CC-B，不能代替。需查看英文PDF第111页原图，不能据文本顺序分配A/B端子号。"},
+    {"id":"Q16","status":"充分","evidence_chunk_ids":["zh_p0385_c001"],"reason":"385页明确s.err含义及检查错误接线、传感器断线/短路、输入类型设置等项目，覆盖原判定要求。"},
+    {"id":"Q17","status":"充分","evidence_chunk_ids":["en_p0405_c001","zh_p0387_c001"],"reason":"405/387页明确e111内部存储器错误，先重新上电，仍显示则维修，恢复时检查电气干扰。"},
+    {"id":"Q18","status":"充分","evidence_chunk_ids":["en_p0404_c003"],"reason":"英文404页明确e333 AD Converter Error为内部电路异常，先断电再上电，仍显示则维修，恢复时检查电气干扰。该专属依据升至第1名；其他s.err/e111片段不计作本题依据。"},
+    {"id":"Q19","status":"充分","evidence_chunk_ids":["en_p0216_c001","en_p0275_c001","en_p0277_c001"],"reason":"216/277页说明Setting Change Protect为ON会禁止按键修改（保护级别参数例外）；275页列出Operation/Adjustment Protect等保护参数，足以给出检查方向，不从不完整表格推断解锁值。"},
+    {"id":"Q20","status":"部分","evidence_chunk_ids":["en_p0165_c001"],"reason":"165页直接说明加热滞后决定温度下降多少才重新ON、Direct/Reverse Operation决定PV变化时输出调整方向，可提供有限检查方向；但没有明确加热场景应如何设置正反动作，仍不足以完整定位此现象。410页RUN条目属于AT参数不显示，不能错配为加热输出OFF的处理，也不认定单一原因。"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "questions": 20,
+  "top_k": 5,
+  "indexed_chunks": 1596,
+  "before": {
+    "未找到": 9,
+    "充分": 9,
+    "部分": 2
+  },
+  "after": {
+    "充分": 15,
+    "部分": 4,
+    "未找到": 1
+  },
+  "changes": {
+    "改善": 9,
+    "不变": 10,
+    "退步": 1
+  },
+  "before_full_evidence_rate": 0.45,
+  "after_full_evidence_rate": 0.75,
+  "requires_pdf_image": [
+    "Q12",
+    "Q15"
+  ],
+  "review_method": "本次会话逐题阅读混合检索实际Top-5原文，沿用retrieval_questions.json的全部问题和判定要求；不调用裁判API，不以分数代替证据，不补入Top-5之外的内容。",
+  "scope": "同一20题开发集复测，词表/排序调整参考了这些问题，不是独立测试集；不代表全库准确率。"
+}

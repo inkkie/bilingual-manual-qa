@@ -1,0 +1,145 @@
+{
+  "findings_count": 0,
+  "findings": [],
+  "proposed_files_scanned": 33,
+  "history": {
+    "status": "scanned",
+    "objects_scanned": 34,
+    "scope": "all local objects including unreachable objects and reflogs; not unfetched remotes"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "7cf97bc59bff0b3fd87409e9646219d7aa728632c61397080148445d46ec5834"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1e92875b9ce531bd3b8ab2073d95c2986c4e6dd160acb920304c9461ee55fe48"
+    },
+    {
+      "path": "README_deepseek.md",
+      "sha256": "9fbd1ea1efb231dcddc50f6c3b810c068896893318289939ad4c98710bed3273"
+    },
+    {
+      "path": "README_retrieval.md",
+      "sha256": "e7a06a8058bb303ce0c3986f7f14aa3a8d27efdf1b5cbf9be18748628f5d4aff"
+    },
+    {
+      "path": "app.py",
+      "sha256": "f3b03131586387bfa3c7bfb89e9e1db10ef13a0824b0a35218594748cad47a96"
+    },
+    {
+      "path": "ask_deepseek.py",
+      "sha256": "0cc1d0f81b13d47360536cdf796cf0bd0f861a06da1cbc77ad785dc0f2e64106"
+    },
+    {
+      "path": "audit_chunks.py",
+      "sha256": "7b5511afeb9f07af7dc2f3126f0ddb3869d88528b2c7b5f0785aea3f85152e56"
+    },
+    {
+      "path": "build_chunks.py",
+      "sha256": "4b162963585208fcc81bce997e3406ba58e60bf525c575af9ee5fd031dc2a2da"
+    },
+    {
+      "path": "check_pdf.py",
+      "sha256": "36db14d51738658de9c7d4b7efb5e489ed10271b3d015eca40e7ecb77be62cef"
+    },
+    {
+      "path": "download_embedding_model.py",
+      "sha256": "0220eb38b602835ec2b340df46dfc213e83aeebb565cd0f92aff047a98b6014d"
+    },
+    {
+      "path": "hybrid_assessments.json",
+      "sha256": "eb80efa015536700a21e7872a38e4a00f5089072912c222d28a55634ca7ef6fb"
+    },
+    {
+      "path": "hybrid_retrieval.py",
+      "sha256": "3f4f87d7c886f50f6a18e6c18fd24c6de6841fe82270d326281be1107ef843d9"
+    },
+    {
+      "path": "local_vector_index.py",
+      "sha256": "fc0483568e806e71f64fb986f0130149049954f532c6f5b389a5b6c0f4348784"
+    },
+    {
+      "path": "report_hybrid.py",
+      "sha256": "c20155a0c7041fdeb4b31c00281635bf772cf94e8ed07a64d3adff6bd7a492d5"
+    },
+    {
+      "path": "report_retrieval.py",
+      "sha256": "af85e448914eb67fc943d0343976b37306c37d6eb066c326cc8cb1228ea5c4cb"
+    },
+    {
+      "path": "requirements-app.txt",
+      "sha256": "c081db19d98440ae9cd6a1bbc65123cc2f6097ea59a5c0cee52d254245d1a6a4"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "a0cae0e561e0c9fdca77c674c9b4a358e879aa86f06d35ff98928f0b4992a146"
+    },
+    {
+      "path": "requirements-retrieval.txt",
+      "sha256": "65bcb939202c88a01814e3970a233d7fce65243046b8fcc5fcb13d29b6902675"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "36ab08d76cd8a1c0b0d54bf5b3757ad9ed867938bdd4ae701384a986ad59b31f"
+    },
+    {
+      "path": "retrieval_assessments.json",
+      "sha256": "f1e0474c4be1d0bcb32727b34f4eeded4c01cb886a886ac7f6e15fd23011b5a0"
+    },
+    {
+      "path": "retrieval_questions.json",
+      "sha256": "78c19fe81926d5f93fbf2d1df3d295d7d5b2f3c31b67093ebb2876b0f51ee4a9"
+    },
+    {
+      "path": "test_app.py",
+      "sha256": "a71cae357033a9ecd73598e05cb32a4714e5bd06ca82b3106153d7536f7cb605"
+    },
+    {
+      "path": "test_ask_deepseek.py",
+      "sha256": "767ccf397900da94c8b754d019e50f9051077bfa47838c8f23a759aea32ed3ed"
+    },
+    {
+      "path": "verify_hybrid.py",
+      "sha256": "f1deb37cffcfd81127677db6e812898a77c26f229b65b546eaeb93c11ee9520f"
+    },
+    {
+      "path": "verify_vector_index.py",
+      "sha256": "79e7b3a948953d78c7434e89b919dbc1663f68c7632f57e93c342ac298d2e979"
+    },
+    {
+      "path": "tools/audit_repository.py",
+      "sha256": "0e1994a6fab542a70eead90957881cc455744ad78e7029c327a809adc5120f36"
+    },
+    {
+      "path": "tools/capture_demo.py",
+      "sha256": "a690d9f215977a8c252ab8b17097e7f2a064ff04d4199ceec3951ea298130849"
+    },
+    {
+      "path": "tools/demo_page.py",
+      "sha256": "f0f6b0bd74c847c07249c51cb68b851f44e7b3433d5de2f4137a5003be932601"
+    },
+    {
+      "path": "tools/export_evaluation_summary.py",
+      "sha256": "95b7488630fbe49e6717bdcc841b3129f6ceccb520321606922da69283508ca5"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "sha256": "6ed023ad8290e46f39060f9c93eb64586a3f719f7ea98581055a5225452a9450"
+    },
+    {
+      "path": "docs/evaluation_summary.json",
+      "sha256": "2e909b9245d553113b55470bae79c81482304a17add8c81642611c616bd4f39c"
+    },
+    {
+      "path": "docs/images/manual-qa.png",
+      "sha256": "b2ebda490d850f45cc3dbc99f15bc052c7c16e9876d96228b4a5a92c9beb3044"
+    },
+    {
+      "path": "docs/proposed_files.txt",
+      "sha256": "1f2a0db40fe6b0b456e03e15d68cfddd343ed76a3f444f0e217de060abf1c8c8"
+    }
+  ],
+  "limits": "Heuristic and optional environment-value matching; no guarantee of detecting all credentials. No matched secret values are output."
+}

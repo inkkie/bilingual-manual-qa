@@ -1,0 +1,4 @@
+-r requirements.txt
+-r requirements-app.txt
+# Only used by the optional headless screenshot helper.
+websocket-client>=1.8,<2
